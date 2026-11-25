@@ -1,0 +1,14 @@
+/* Paw cursor and fading footprint trail; desktop mouse only. */
+.teddy-paw-effects { display: none; position: fixed; inset: 0; pointer-events: none !important; z-index: 2147483000; }
+html.teddy-paw-mode .teddy-paw-effects { display: block; }
+html.teddy-paw-mode, html.teddy-paw-mode * { cursor: none !important; }
+.teddy-paw-cursor { position: fixed; left: 0; top: 0; opacity: 0; width: 32px; height: 32px; color: #a66c35; pointer-events: none; will-change: transform; filter: drop-shadow(0 2px 2px rgba(62, 36, 20, .22)); }
+.teddy-paw-cursor svg { display: block; width: 100%; height: 100%; }
+.teddy-paw-trails { position: fixed; inset: 0; pointer-events: none; }
+.teddy-paw-print { position: absolute; width: 16px; height: 16px; color: #c7965e; pointer-events: none; opacity: .75; transform: translate(-50%, -50%) rotate(var(--paw-turn, 0deg)); animation: teddy-paw-fade 1.05s ease-out forwards; }
+.teddy-paw-print svg { width: 100%; height: 100%; display: block; }
+@keyframes teddy-paw-fade { 0% { opacity: .82; filter: blur(0); } 60% { opacity: .55; } 100% { opacity: 0; filter: blur(1px); } }
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  html.teddy-paw-mode, html.teddy-paw-mode * { cursor: auto !important; }
+  .teddy-paw-effects { display: none !important; }
+}

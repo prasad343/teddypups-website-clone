@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 700">
+<rect width="640" height="700" fill="#f6e8da"/>
+<circle cx="135" cy="135" r="90" fill="#fff7eb" opacity=".65"/>
+<circle cx="530" cy="580" r="150" fill="#f4cfc0" opacity=".4"/>
+<g transform="translate(82 145)">
+ <ellipse cx="240" cy="390" rx="165" ry="140" fill="#c68b57"/>
+ <ellipse cx="125" cy="170" rx="77" ry="145" fill="#a97146" transform="rotate(19 125 170)"/>
+ <ellipse cx="355" cy="170" rx="77" ry="145" fill="#a97146" transform="rotate(-19 355 170)"/>
+ <ellipse cx="240" cy="186" rx="183" ry="178" fill="#dba86f"/>
+ <ellipse cx="240" cy="248" rx="112" ry="100" fill="#f4d2a5"/>
+ <circle cx="168" cy="177" r="19" fill="#372b26"/>
+ <circle cx="310" cy="177" r="19" fill="#372b26"/>
+ <circle cx="172" cy="171" r="5" fill="white"/>
+ <circle cx="314" cy="171" r="5" fill="white"/>
+ <ellipse cx="240" cy="237" rx="29" ry="20" fill="#3d302a"/>
+ <path d="M240 258q-12 38-42 17m42-17q12 38 42 17" stroke="#3d302a" stroke-width="8" stroke-linecap="round" fill="none"/>
+ <ellipse cx="144" cy="490" rx="57" ry="38" fill="#e1af7a"/>
+ <ellipse cx="330" cy="490" rx="57" ry="38" fill="#e1af7a"/>
+</g>
+<text x="320" y="665" font-family="Arial, sans-serif" text-anchor="middle" fill="#986b52" font-size="24">TeddyPups</text>
+</svg>

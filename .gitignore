@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+backup-before-*/
+*.log
+
+# Old downloaded patches and duplicate folders
+*.zip
+TeddyPups_Original_Assets_V4_Patch/
+TeddyPups_3_File_Design_Update/
+TeddyPups U.A.E. — Premium teacup puppies in Dubai.html
+TeddyPups U.A.E. — Premium teacup puppies in Dubai_files/
