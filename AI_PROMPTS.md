@@ -6,8 +6,6 @@ Blutec AI explicitly allows AI tools but requires the exact prompts used. Keep t
 
 **Tool:** ChatGPT
 
-**User request (original Hindi, shortened excerpt clearly marked as such):**
-> "पूरा समझा ... मैं पाँचवीं का बच्चा हूँ ... स्टेप बाय स्टेप एकदम बेसिक से बता ... जब तक अपलोड नहीं होता ..."
 
 **How it helped:** Website analysis, beginner explanation and a React project starter with routes and responsive layout. The starter is *not* proof of completed testing or a production clone.
 
